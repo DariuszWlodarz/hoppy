@@ -1,4 +1,4 @@
-[gd_resource type="TileSet" load_steps=17 format=2]
+[gd_resource type="TileSet" load_steps=18 format=2]
 
 [ext_resource path="res://GFX/Environment/ground_cake_small.png" type="Texture" id=1]
 [ext_resource path="res://GFX/Environment/ground_grass.png" type="Texture" id=2]
@@ -8,6 +8,7 @@
 [ext_resource path="res://GFX/Environment/ground_snow_small.png" type="Texture" id=6]
 [ext_resource path="res://GFX/Environment/ground_snow.png" type="Texture" id=7]
 [ext_resource path="res://GFX/Environment/ground_cake.png" type="Texture" id=8]
+[ext_resource path="res://GFX/tree.png" type="Texture" id=9]
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( -187, -40, -175, -48, 179, -47, 188, -37, 191, -18, 161, 36, -160, 48, -189, -11, -191, -27 )
@@ -202,3 +203,17 @@ points = PoolVector2Array( -101, -32, -96, -45, -87, -50, 80, -50, 91, -48, 101,
 "shape_transform": Transform2D( 1, 0, 0, 1, 100.5, 50 )
 } ]
 7/z_index = 0
+8/name = "Sprite"
+8/texture = ExtResource( 9 )
+8/tex_offset = Vector2( 0, 0 )
+8/modulate = Color( 1, 1, 1, 1 )
+8/region = Rect2( 0, 0, 90, 132 )
+8/tile_mode = 0
+8/occluder_offset = Vector2( 45, 66 )
+8/navigation_offset = Vector2( 45, 66 )
+8/shape_offset = Vector2( 0, 0 )
+8/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+8/shape_one_way = false
+8/shape_one_way_margin = 0.0
+8/shapes = [  ]
+8/z_index = 0
